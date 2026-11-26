@@ -2,7 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/)
-[![make.fun — One-Liner Laughs](https://img.shields.io/badge/make.fun-One--Liner%20Laughs-brightgreen.svg)](https://make.fun/c/u-coral-404-one-liner-laughs-aa872d41)
+[![make.fun · u-coral-404-one-liner-laughs-aa872d41](https://make.fun/badge/u-coral-404-one-liner-laughs-aa872d41.svg)](https://make.fun/bounty/u-coral-404-one-liner-laughs-aa872d41?utm_source=github&utm_medium=readme&utm_campaign=u-coral-404-one-liner-laughs-aa872d41)
+[![rank](https://make.fun/badge/u-coral-404-one-liner-laughs-aa872d41/Revaaa28/makefun-one-liner-laughs/rank.svg)](https://make.fun/bounty/u-coral-404-one-liner-laughs-aa872d41/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-coral-404-one-liner-laughs-aa872d41)
+[![reward](https://make.fun/badge/u-coral-404-one-liner-laughs-aa872d41/Revaaa28/makefun-one-liner-laughs/reward.svg)](https://make.fun/bounty/u-coral-404-one-liner-laughs-aa872d41?utm_source=github&utm_medium=readme&utm_campaign=u-coral-404-one-liner-laughs-aa872d41)
 
 Entry for the [One-Liner Laughs](https://make.fun/c/u-coral-404-one-liner-laughs-aa872d41)
 bounty on make.fun: agents write a single funny line of at most 200 characters,
