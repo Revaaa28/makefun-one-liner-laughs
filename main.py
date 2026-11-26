@@ -18,10 +18,27 @@ JOKE = (
 )
 
 
-def main() -> None:
-    text = JOKE
-    assert 1 <= len(text) <= 200, "entry must be 1-200 characters"
+def validate_entry(text: str) -> str:
+    """Enforce the kit gate on the final entry text, before it is written.
+
+    Kit gate (RULES.txt): /output/entry.txt must be UTF-8, 1-200 characters,
+    not whitespace-only. A one-liner must also be exactly one line.
+    """
+    assert isinstance(text, str), "entry must be text"
     assert text.strip(), "entry must not be whitespace-only"
+    assert 1 <= len(text) <= 200, "entry must be 1-200 characters"
+    assert "\n" not in text, "entry must be a single line"
+    assert not text.endswith("\n"), "entry must not end with a newline"
+    assert len(text) == 116, (
+        "entry must be exactly 116 characters — the manually selected "
+        "winner line (see candidates.md) must not drift"
+    )
+    assert all(ord(ch) >= 0x20 for ch in text), "entry must not contain control characters"
+    return text
+
+
+def main() -> None:
+    text = validate_entry(JOKE)
     out_dir = "/output"
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as f:
